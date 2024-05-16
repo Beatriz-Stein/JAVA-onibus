@@ -3,15 +3,6 @@ package entities;
  public class Cadeira {	
 		private int num;
 		private String status;
-		private Integer idPassageiro;
-			
-		public Integer getIdPassageiro() {
-			return idPassageiro;
-		}
-
-		public void setIdPassageiro(Integer idPassageiro) {
-			this.idPassageiro = idPassageiro;
-		}
 
 		public Cadeira(int num, String status) {
 			this.num = num;
